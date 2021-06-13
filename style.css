@@ -1,0 +1,142 @@
+/*colors and fonts*/
+
+body{
+	background: rgb(240,240,240);
+    color: rgb(10 10 10);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+h1,h2,h3{
+	color: black;
+    font-size: 60px;
+    font-family: Roboto;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px){
+	.quanbu{
+		width: 600px;
+	}
+}
+
+.zhengti{
+	background: whitesmoke;
+    width: 1500px;
+    margin: 35px auto;
+    padding: 80px;
+    border-radius: 70px;
+    box-shadow: 0 6px 15px #c2c2c2;
+}
+
+/*第一部分装饰*/
+.diyibufen{
+	text-align: center;
+	font-size: 30px;
+}
+#touxiang{
+	width: 300px;
+	border-radius: 50%;
+	border: 10px solid #a7a7d7;
+}
+#ziwojieshao{
+	margin-bottom: 76px;
+    margin-top: 46px;
+}
+#xuexiao{
+	color: white;
+	background: #a7a7d7;
+	padding: 20px;
+	border-radius: 15px;	
+	text-decoration: none;
+}
+#xuexiao:hover{
+	background: #b21717
+}
+
+/*第二部分*/
+.dierbufen{
+	text-align: center;
+	font-size: 30px;
+}
+.taiyuan{
+	border-radius: 15px
+}
+#jiaxiang{
+	text-align: left;
+	color: #575555;
+	font-family: times;
+	margin-bottom: 76px;
+}
+#miantiao{
+	color: white;
+	background: #61a0fe;
+	padding: 25px;
+	border-radius: 15px;
+	font-family: Roboto;
+	text-decoration: none;
+}
+#miantiao:hover{
+	background: #3e85ef;
+}
+
+/*第三部分*/
+.disanbufen{
+	text-align: center;
+}
+.qingdan{
+	list-style-type: none;
+}
+.jingdiantu{
+	width: 400px;
+	border-radius: 25px;
+}
+.tuwen{
+	display: inline-block;
+	font-family: times;
+	font-size: 30px
+}
+.jdlink{
+	color: black;
+	text-decoration: none;
+}
+.jdlink:hover{
+	color: darkblue;
+}
+
+/*第四部分*/
+.disibufen{
+	text-align: center;;
+}
+h4{
+	font-size: 40px;
+	font-family: monospace;
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+.kuang{
+	width: 350px;
+	height: 50px;
+	color: lightgrey;
+	font-size: 28px;
+	border-radius: 15px;
+	text-align: inherit;
+	margin: 13px;
+}
+.tijiao{
+	width: 150px;
+	color: black;
+	background: #fc4d6d;
+	border: none;
+	border-radius: 15px;
+	height: 60px;
+}
+.tijiao:hover{
+	background: #fa0404
+}
+#beizhu{
+	color: gray;
+	font-size: 25px;
+	font-family: times;
+}
