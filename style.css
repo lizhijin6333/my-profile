@@ -60,9 +60,10 @@ h1,h2,h3{
 	text-align: center;
 	font-size: 30px;
 }
-.taiyuan{
+#taiyuan{
 	border-radius: 15px;
 	text-align:center;
+	width:900px;
 }
 #jiaxiang{
 	text-align: left;
